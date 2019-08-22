@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.page-wrapper {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    background: whitesmoke;
+}
+
+.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(241,241,241,0.8);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+    z-index: 5;
+}
+.top-nav .toggler-container {
+    position: relative;
+    width: 60px;
+    padding: 10px;
+}
+.top-nav .toggler-container .hamburger {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.top-nav .toggler-container .hamburger:focus {
+    outline: none;
+}
+.top-nav .toggler-container .hamburger:hover {
+    transition: all 0.2s ease-in-out;
+}
+.top-nav .toggler-container .hamburger:hover .line:nth-child(1) {
+    width: 100%;
+}
+.top-nav .toggler-container .hamburger:hover .line:nth-child(2) {
+    width: 100%;
+}
+.top-nav .toggler-container .hamburger:hover .line:nth-child(3) {
+    width: 100%;
+}
+.top-nav .toggler-container .hamburger .line {
+    transition: all 0.2s ease-in-out;
+    height: 2px;
+    margin: 3px 0;
+    border-radius: 5px;
+    background: coral;
+}
+.top-nav .toggler-container .hamburger .line:nth-child(1) {
+    width: 100%;
+}
+.top-nav .toggler-container .hamburger .line:nth-child(2) {
+    width: 80%;
+}
+.top-nav .toggler-container .hamburger .line:nth-child(3) {
+    width: 60%;
+}
+
+.side-wrapper {
+    z-index: 100001;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    opacity: 0;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+}
+.side-wrapper.opened {
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+    pointer-events: auto;
+}
+.side-wrapper .side-content {
+    transition: all 0.2s ease-in-out;
+    transform: translateX(-100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    min-width: 0;
+    max-width: 300px;
+    width: 100%;
+    background: #f1f1f1;
+    box-shadow: 5px 0 10px 1px rgba(0, 0, 0, 0.15);
+}
+.side-wrapper .side-content.slideIn {
+    transition: all 0.2s ease-in-out;
+    transform: translateX(0);
+}
+.side-wrapper .side-content .close-btn {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.side-wrapper .side-content .close-btn:focus {
+    outline: none;
+}
+.side-wrapper .side-content .close-btn:hover {
+    transition: all 0.2s ease-in-out;
+}
+.side-wrapper .side-content .close-btn:hover .line:nth-child(1) {
+    transform: rotate(0) translate(-5px, 8px);
+}
+.side-wrapper .side-content .close-btn:hover .line:nth-child(2) {
+    transform: rotate(0) translate(-5px, 0);
+}
+.side-wrapper .side-content .close-btn .line {
+    transition: all 0.2s ease-in-out;
+    height: 2px;
+    width: 100%;
+    margin: 3px 0;
+    border-radius: 5px;
+    background: coral;
+}
+.side-wrapper .side-content .close-btn .line:nth-child(1) {
+    transform: rotate(45deg) translate(1px, 10px);
+}
+.side-wrapper .side-content .close-btn .line:nth-child(2) {
+    transform: rotate(-45deg) translate(-5px, -5px);
+}
+
+.side-content{
+    padding: 30px;
+    padding-top: 150px;
+}
+
+.nav-li{
+    list-style: none;
+    font-family: 'Lexend Peta', sans-serif;
+    padding-bottom: 50px;
+}
+
+.nav-li a{
+    color: #fc9814;
+    text-decoration: none;
+}
+
+.nav-li a:hover{
+    color: #701d60;
+    text-decoration: none;
+}
+

@@ -1,0 +1,144 @@
+.content-wrapper .content {
+    padding: 0 2px;
+}
+.content-wrapper .content img {
+    width: 100%;
+}
+
+.banner-top{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 80vh;
+    min-height: 80vh;
+}
+
+.avatar{
+    position: absolute;
+    border-radius: 50%;
+    top: -25%;
+    max-width: 20%;
+    height: auto;
+    left: 40%;
+    z-index: 1;
+}
+
+.introducton-panel{
+    position: absolute;
+    height: 50%;
+    width: 60%;
+    left:17%;
+    top:50%;
+    background-color: whitesmoke;
+    padding: 70px;
+}
+
+.panel-name{
+    font-family: 'Lexend Peta', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+.profession{
+    font-family: 'Lexend Peta', sans-serif;
+    text-align: center;
+    color: #fc9814;
+    margin-top: 0;
+    letter-spacing: 4px;
+    margin-bottom: 5%;
+}
+
+.p-info{
+    font-family: 'Lexend Peta', sans-serif;
+    text-align: center;
+    margin:4px;
+}
+
+.social-media-icons{
+    align-content: center;
+    margin-left: 38%;
+    margin-top: 5%;
+}
+
+.fa{
+    padding: 5px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #701d60;
+    color: white;
+    border-radius: 50%;
+}
+
+.fa:hover{
+    background-color: #fc9814;
+}
+
+.main-icon{
+    text-align: center;
+    padding-left: 2px;
+}
+
+.social-media-icons-li{
+    display: inline;
+    list-style: none;
+    padding: 5px;
+}
+
+.address-bar{
+    display: none;
+    background-color: #fc9814;
+    max-width: 80%;
+    min-width: 80%;
+    height: 150px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color:white;
+    padding: 40px 20px;
+}
+
+
+.address-bar-p{
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    margin: 0;
+}
+
+.jump span {
+    display: inline-block;
+    transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+    transition: transform 0.2s, -webkit-transform 0.2s;
+    cursor: url("http://csscursor.info/source/santahand.png"), default;
+}
+.jump span:hover {
+    -webkit-transform: translateY(-20px) rotate(10deg) scale(2);
+    transform: translateY(-20px) rotate(10deg) scale(2);
+}
+
+@media only screen and (max-width: 1400px) {
+    .avatar{
+        position: absolute;
+        border-radius: 50%;
+        top: -18%;
+        max-width: 20%;
+        height: auto;
+        left: 40%;
+    }
+
+    .social-media-icons{
+        align-content: center;
+        margin-left: 30%;
+    }
+
+    .address-bar-li{
+        font-family: 'Lexend Peta', sans-serif;
+        list-style: none;
+        display: block;
+        margin-top: 7%;
+    }
+}
+

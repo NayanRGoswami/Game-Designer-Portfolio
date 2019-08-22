@@ -1,0 +1,29 @@
+.contact-panel{
+    padding-top: 200px;
+    background-color: #4b5b80;
+    color:white
+}
+
+.contact-section{
+    margin-top: 100px;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    text-align: center;
+    padding-bottom: 180px;
+}
+
+.contact-section a{
+    color: white;
+}
+
+.contact-section a:hover{
+    color: #fc9814;
+}
+
+.contact-section:hover{
+    color: #fc9814;
+}
+
+.contact-section-logo{
+    text-align: center;
+}

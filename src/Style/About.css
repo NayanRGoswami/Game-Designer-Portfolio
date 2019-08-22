@@ -1,0 +1,61 @@
+.about-para {
+    font-family: 'Lexend Peta', sans-serif;
+    color: gray();
+    text-align: justify;
+}
+
+.about-heading{
+    padding-left: 150px;
+}
+
+.about-panel{
+    background-color: white;
+    padding: 70px 10% 8% 7%;
+}
+
+.skills-show{
+    background-color: #ebe6e6;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.skills-descrip{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    padding-left: 15%;
+}
+
+.skills-icon{
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    min-width: 80%;
+}
+
+.skills-container{
+    margin-left: 5%;
+    padding: 0 5% 0 5% ;
+}
+
+.description-skills{
+    padding: 10px;
+}
+
+.skills-para{
+    font-family: 'Lexend Peta', sans-serif;
+    color: gray();
+    font-size: 12px;
+    text-align: center;
+    clear: both;
+}
+
+.skills-heading{
+    font-family: 'Lexend Peta', sans-serif;
+    color: gray;
+    margin-left: 44%;
+    font-weight: bold;
+    margin-top: 20px ;
+    margin-bottom: 40px;
+}
