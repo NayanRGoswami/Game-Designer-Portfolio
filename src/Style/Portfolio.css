@@ -101,3 +101,15 @@ body{
     max-width: 60px;
     margin-left: 43%;
 }
+
+@media only screen and (max-width: 600px){
+    .project-para{
+        text-align: center;
+        margin-top: 20px;
+        font-family: 'Lexend Peta', sans-serif;
+    }
+
+    .centered{
+        margin-left: 0;
+    }
+}

@@ -27,3 +27,23 @@
 .contact-section-logo{
     text-align: center;
 }
+
+@media only screen and (max-width: 600px){
+    .contact-panel{
+        padding-top: 50px;
+        background-color: #4b5b80;
+        color:white
+    }
+
+    .contact-section{
+        margin-top: 10px;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .prject-para{
+        font-size: 15px;
+    }
+}

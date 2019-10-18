@@ -59,3 +59,17 @@
     margin-top: 20px ;
     margin-bottom: 40px;
 }
+
+@media only screen and (max-width: 600px){
+    .about-heading{
+        padding-left: 10px;
+    }
+
+    .skills-heading{
+        display: none;
+    }
+
+    .skills-container{
+        display: none;
+    }
+}

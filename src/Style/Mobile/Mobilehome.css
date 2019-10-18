@@ -1,0 +1,45 @@
+
+.mobile-home{
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    .content-wrapper{
+        display: none;
+    }
+
+    .mobile-home{
+        display: block;
+    }
+
+   .page-wrapper{
+       background-color: #701d60;
+       padding: 20px;
+   }
+
+   .mobile-home-heading{
+       color: white;
+       font-family: 'Lexend Peta', sans-serif;
+       margin-top: 20%;
+       font-size: 25px;
+       text-align: center;
+   }
+
+
+   .mobile-avatar-image{
+       border-radius: 50%;
+       width: 60%;
+       margin-left: 18%;
+       margin-top: 30px;
+   }
+
+   .mobile-home-profession{
+       font-family: 'Lexend Peta', sans-serif;
+       font-size: 20px;
+       color: #fc9814;
+       text-align: center;
+       margin-top: 20px;
+   }
+}

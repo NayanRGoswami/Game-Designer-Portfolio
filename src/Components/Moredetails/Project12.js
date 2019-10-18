@@ -21,7 +21,7 @@ class Project12 extends React.Component {
             const client = new window.Sketchfab(version, iframe)
 
             client.init(
-                "https://sketchfab.com/3d-models/project2-vijoy-0f3029f55a0746b7a02c4c7186e8faff",
+                "https://sketchfab.com/3d-models/gradient-desert-49775c4b9a9041d99b16bf59d86fa765",
                 {
                     success: (api) => {
                         api.load()

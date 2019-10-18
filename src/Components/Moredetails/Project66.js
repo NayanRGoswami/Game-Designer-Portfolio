@@ -21,7 +21,7 @@ class Project66 extends React.Component {
             const client = new window.Sketchfab(version, iframe)
 
             client.init(
-                "https://sketchfab.com/3d-models/destructable-house-pro-04-copy-b2cae20088354e4693cb996b38c8f495",
+                "https://sketchfab.com/3d-models/medieval-fantasy-book-06d5a80a04fc4c5ab552759e9a97d91a",
                 {
                     success: (api) => {
                         api.load()

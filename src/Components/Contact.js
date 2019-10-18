@@ -39,7 +39,7 @@ class Contact extends React.Component {
                     </div>
                 </div>
 
-                <div className= "container">
+                <div className= "container" data-aos="zoom-in">
                     <div className= "row">
                         <div className= "col-md-4 contact-section">
                             <h1 className= "contact-section-logo"><i className="map pin icon"></i></h1>

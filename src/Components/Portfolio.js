@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import {Link} from 'react-router-dom';
 
 import '../Style/Portfolio.css';
+import '../Style/Mobile/Mobilehome.css';
 
 class Portfolio extends React.Component {
 
@@ -18,7 +19,7 @@ class Portfolio extends React.Component {
     render(){
 
         return(
-          <div className= "portfolio-panel" id = "portfolio">
+          <div className= "portfolio-panel" id = "port">
               <div className= "container">
                   <div className= "orange-stripe"></div>
                   <h1 className= "portfolio-heading" >Portfolio</h1>

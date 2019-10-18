@@ -18,3 +18,20 @@
     font-family: 'Lexend Peta', sans-serif;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px){
+    .footer-text{
+        color: white;
+        padding-top: 50px;
+        font-family: 'Lexend Peta', sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .footer-text-2{
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        text-align: center;
+        font-size:12px;
+    }
+}

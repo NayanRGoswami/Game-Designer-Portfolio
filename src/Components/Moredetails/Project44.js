@@ -21,7 +21,7 @@ class Project44 extends React.Component {
             const client = new window.Sketchfab(version, iframe)
 
             client.init(
-                "https://sketchfab.com/3d-models/3m-proj-03-vijoyanto-d867f31e46d442b1a6406a801e38d395",
+                "https://sketchfab.com/3d-models/young-knight-f30e97934b9047fd9971ed022843efb4",
                 {
                     success: (api) => {
                         api.load()

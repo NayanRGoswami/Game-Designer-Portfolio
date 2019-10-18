@@ -1,8 +1,10 @@
 import React from 'react';
 import $ from 'jquery';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Mobilehome from "./Mobile/Mobilehome";
 
 import '../Style/Home.css';
+
 
 
 class Home extends React.Component {
@@ -20,6 +22,7 @@ class Home extends React.Component {
 
         return(
            <div>
+               <Mobilehome/>
                <div className="content-wrapper" id = "home">
                    <div className="content">
                        <img className= "banner-top" src= {require('../Images/top-bg-2.jpg')} alt="Gaming console"/>

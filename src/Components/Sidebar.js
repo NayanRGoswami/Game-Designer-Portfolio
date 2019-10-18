@@ -45,12 +45,6 @@ class Sidebar extends React.Component {
             }, 1000);
         });
 
-        $("#portfolio_link").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#portfolio").offset().top
-            }, 1000);
-        });
-
 
         $("#home_link").click(function() {
             $('html, body').animate({
@@ -61,6 +55,12 @@ class Sidebar extends React.Component {
         $("#contact_link").click(function() {
             $('html, body').animate({
                 scrollTop: $("#contact").offset().top
+            }, 1000);
+        });
+
+        $("#portfolio_link").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#port").offset().top
             }, 1000);
         });
 
@@ -91,9 +91,8 @@ class Sidebar extends React.Component {
                                 <ul>
                                     <li className= "nav-li"><a id = "home_link" href = "#home">HOME</a></li>
                                     <li className= "nav-li"><a id = "about_link" href = "#skills">ABOUT</a></li>
-                                    <li className= "nav-li"><a id = "portfolio_link" href = "#portfolio">PORTFOLIO</a></li>
+                                    <li className= "nav-li"><a id = "portfolio_link" href = "#port">PORTFOLIO</a></li>
                                     <li className= "nav-li"><a id = "contact_link" href = "#contact">CONTACT ME</a></li>
-                                    <li className= "nav-li"><a href = "home">CV</a></li>
                                 </ul>
                             </div>
                         </div>

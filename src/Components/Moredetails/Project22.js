@@ -21,7 +21,7 @@ class Project22 extends React.Component {
             const client = new window.Sketchfab(version, iframe)
 
             client.init(
-                "https://sketchfab.com/3d-models/3m-proj-04-vijoy-26e2a65b87a74c5bb755c571f66e2c9c",
+                "https://sketchfab.com/3d-models/harvest-moon-a-wonderful-life-bdbd085762a24777be5aef6df4c524b8",
                 {
                     success: (api) => {
                         api.load()
