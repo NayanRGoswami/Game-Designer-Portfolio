@@ -21,7 +21,7 @@ class Footer extends React.Component {
             <div className= "footer">
                 <div className= "main-footer">
                     <p className= "footer-text">
-                        &copy;All Rights Reserved . Vijoyanto George
+                        &copy;All Rights Reserved . John Doe
                     </p>
                     <p className= "footer-text-2">
                         Designed by <a href ="http://www.nayangoswami.org">Nayan Goswami</a>

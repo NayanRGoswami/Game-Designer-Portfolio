@@ -48,12 +48,12 @@ class Contact extends React.Component {
 
                        <div className= "col-md-4 contact-section">
                            <a href= "mailto:vijoy@mail.com"> <h1 className= "contact-section-logo"><i className="envelope icon"></i></h1>
-                            <p>vijoy_george@gmail.com</p></a>
+                            <p>john_george@gmail.com</p></a>
                         </div>
 
                         <div className= "col-md-4 contact-section">
                             <h1 className= "contact-section-logo"><i className="phone icon"></i></h1>
-                            <p>999-488-7100</p>
+                            <p>9m9-488-7100</p>
                         </div>
                     </div>
                 </div>

@@ -51,12 +51,12 @@ class Home extends React.Component {
                            <img className= "avatar" src= {require('../Images/avatar.jpg')} alt="Avatar"/>
                        </div>
 
-                       <h1 className = "panel-name">Vijoyanto George</h1>
+                       <h1 className = "panel-name">John Doe</h1>
                        <h2 className= "profession jump">Game  Artist</h2>
 
                        <p className= "p-info"><strong>Born :</strong> May 3, 1990</p>
-                       <p className= "p-info"><strong>Email :</strong> vijoy_george@gmail.com</p>
-                       <p className= "p-info"><strong>Mobile :</strong> (226)000-5555</p>
+                       <p className= "p-info"><strong>Email :</strong> john_george@gmail.com</p>
+                       <p className= "p-info"><strong>Mobile :</strong> (22m)000-5555</p>
 
                        <div className= "social-media-icons">
                            <ul className= 'social-media-icons-ui'>
